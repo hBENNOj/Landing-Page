@@ -82,17 +82,46 @@ body{
 
 
 .information {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
+    height: 400px;
 }
 
 .information-header {
-
+    padding-top: 30px;
+    padding-bottom: 30px;
     font-size: 36px;
     font-weight: bolder;
     color:#1F2937;
     text-align: center;
+}
+
+.information-boxes {
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.boxes {
+display: flex;
+flex-direction: column;
+text-align: center;
+width: 130px;
+
+
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    border-style: solid;
+    color: #3882F6;
+    
+}
+
+.quotes {
+    background-color: #E5E7EB;
+    height: 400px;
 }
